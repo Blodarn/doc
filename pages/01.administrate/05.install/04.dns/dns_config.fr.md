@@ -91,6 +91,9 @@ suivante :
 - Nous recommandons un [TTL](https://fr.wikipedia.org/wiki/Time_to_Live#Le_Time_to_Live_dans_le_DNS) de 3600 (1 heure). Mais vous pouvez utiliser une autre valeur si vous savez ce que vous faîtes ;
 - Ne mettez pas d'enregistrement IPv6 si vous n'êtes pas certains que l'IPv6 fonctionne sur votre serveur ! Vous aurez des problèmes avec Let's Encrypt si ce n'est pas le cas.
 
+### Importation des zones DNS Yunohost via un fichier .txt
+Votre fournisseur de nom de domaine devrait vous permettre de modifier les zones DNS de votre domaine. Si c'est le cas, sur cette page de modification des zones, vous devriez avoir un lien pour mettre en ligne un fichier .txt où vous auriez copier-coller la configuration DNS fournie par votre instance de Yunohost après avoir ajouté votre domaine via l'interface administrateur de Yunohost.
+
 ### Résolution DNS inverse
 
 Si votre opérateur ou votre hébergeur le permet, nous vous encourageons à
